@@ -8,6 +8,8 @@ int main() {
     const char NEWLINE = '\n';
     int area;
 
+    // LENGTH = 20; // This will cause a compilation error because LENGTH is a constant
+
     area = LENGTH * WIDTH;
     cout << area;
     cout << NEWLINE;
